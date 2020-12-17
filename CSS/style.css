@@ -11,3 +11,14 @@ font-size:100px;
 .Berkley{
     width: 300px;
 }
+table{
+    border:1px solid black;
+}
+th{
+    border:1px dashed red;
+    text-align: center;
+}
+td{
+    border:2px dashed blue;
+    text-align: center;
+}
