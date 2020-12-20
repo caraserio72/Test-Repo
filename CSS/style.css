@@ -1,15 +1,66 @@
+header{
+    background: red;
+    border: 25px solid black;
+    width: 100%;
+}
+#in{
+    background-color: burlywood;
+    width:500px;
+    height: 500px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:20px;
+}
 h1{
-color:red;
-font-weight: bold;
-font-size:100px;
+    color: blue;
+    font-weight: bold;
+    font-size:100px;
+    text-align:center;
+    text-align:top;
+    padding:5px;
 }
 #title{
     color:purple;
     font-weight:bold;
-    font-size:200px;
+    font-size:110px;
+    margin-left: 20px;
+    text-align: center;
+}
+section{
+    background:yellowgreen;
+    border: 25px solid black;
+    width: 100%;
+}
+#in2{
+    background-color: cornflowerblue;
+    width: 500px;
+    height:500px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
 }
 .Berkley{
-    width: 300px;
+    width: 280px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    padding:20px;
+}
+#in3{
+    background-color: olivedrab;
+    width:50%;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+}
+.bodycopy{
+    color: navy;
+    font-weight: bold;
+    font-size:18px;
+    margin-left:20px;
+    text-align:center;
 }
 table{
     border:1px solid black;
