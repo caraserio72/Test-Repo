@@ -11,7 +11,7 @@ body{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-header{
+#header1{
     background: red;
     border: 10px dashed black;
     width: 100%;
@@ -23,14 +23,6 @@ header{
     margin:auto;
     margin-top:20px;
     margin-bottom:20px;
-}
-h1{
-    color: blue;
-    font-weight: bold;
-    font-size:100px;
-    text-align:center;
-    text-align:top;
-    padding:5px;
 }
 #title{
     color:purple;
@@ -50,12 +42,13 @@ aside {
 }
 section{
     background:rgb(213, 228, 184);
-    border: 10px solid black;
+    border: 2px solid black;
     width: 100%;
+    padding:10px;
 }
 .column{
     float:right;
-    width:50%;
+    width:40%;
     padding:20px;
 }
 .row{
@@ -65,7 +58,7 @@ section{
 }
 #in2{
     background-color: cornflowerblue;
-    width: 500px;
+    width: 300px;
     height:400px;
     margin:auto;
     margin-top:20px;
@@ -77,6 +70,11 @@ section{
     margin-left:auto;
     margin-right:auto;
     padding:10px;
+    border-radius: 15%;
+}
+.BerkleyLeftAlign{
+    width: 23%;
+    padding:1%;
     border-radius: 15%;
 }
 #in3{
@@ -117,16 +115,97 @@ td{
     text-align: center;
     padding:10px;
 }
-footer{
-    background-color: cornflowerblue;
-    width: 100%;
-    height:20px;
-    margin-top:20px;
-    margin-bottom:20px;   
-}
 #Berks{
     color: navy;
     font-weight: bold;
     font-size:18px;
     text-align:center;
+}
+H1{
+    font-size: 36px;
+    font-weight:bold;
+}
+.bodycopy3{
+    font-size: 14px;
+    font-weight: lighter
+}
+.bodycopy2{
+    font-size: 12px;
+    font-weight: medium;
+}
+#headshot{
+    display:table;
+}
+.left-photo{
+    float:left;
+    width:200px;
+    padding: 0px 20px 5px 5px;
+  }
+  .right-photo{
+    float:right;
+    width:200px;
+    padding: 0px 5px 5px 20px;
+  }
+  #position-test{
+    background:#ffffff;
+    border: 1px solid red;
+    height:200px;
+    width: 100%;
+    position:relative;
+}
+.absolute-test{
+    display:inline-block;
+    height: 50px;
+    width:100px;
+    color:blue;
+    font-weight:700;
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid black;
+    padding:20px;
+}
+.cheese{
+    margin:3px;
+    display:inline-block;
+    height:100px;
+    font-size: 18px;
+    padding:4px;
+    border: 2px solid black;
+}
+.left{
+    width:40%;
+    background-color: gold;
+    color:#ffffff;
+    position:absolute;
+    top:5px;
+    left:2px;
+}
+.right{
+    width:50%;
+    background-color: hotpink;
+    color:#ffffff;
+    position:absolute;
+    top:5px;
+    right:2px;
+}
+.button-design{
+    width:19.5%;
+    height:50px;
+    color: black;
+    font-weight: bold;
+    background-color: springgreen;
+    border-radius: 15%;
+    display:inline-block;
+    vertical-align: top;
+}
+nav{
+    width:73%;
+    padding:1%;
+}
+uo{
+    width:50%;
+    margin-left:auto;
+}
+footer{
+    padding:20px;
 }
